@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>userInteraction</OriginalElement>
+  <nodes>
+    <node x="0.0" y="941.0">userInteraction.Admin</node>
+    <node x="168.59868421052636" y="184.5">userInteraction.Address</node>
+    <node x="560.9109649122807" y="0.0">userInteraction.CardType</node>
+    <node x="146.34868421052636" y="439.0">userInteraction.User</node>
+    <node x="364.19714912280705" y="608.0">userInteraction.Customer</node>
+    <node x="419.28596491228075" y="745.0">userInteraction.Receipt</node>
+    <node x="336.28596491228075" y="392.0">userInteraction.BillingInformation</node>
+    <node x="808.9109649122809" y="231.5">userInteraction.ItemDescription</node>
+    <node x="768.4109649122809" y="369.0">userInteraction.Cart</node>
+    <node x="89.38464912280705" y="608.0">userInteraction.EStore</node>
+    <node x="487.91096491228075" y="173.0">userInteraction.CreditCardInformation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="userInteraction.Admin" target="userInteraction.Address">
+      <point x="-63.0" y="-27.0" />
+      <point x="31.5" y="916.0" />
+      <point x="61.80131578947373" y="916.0" />
+      <point x="61.80131578947373" y="339.0" />
+      <point x="187.29868421052635" y="339.0" />
+      <point x="-74.80000000000001" y="61.5" />
+    </edge>
+    <edge source="userInteraction.Customer" target="userInteraction.BillingInformation">
+      <point x="-24.249999999999943" y="-38.5" />
+      <point x="485.4471491228071" y="558.0" />
+      <point x="427.03596491228075" y="558.0" />
+      <point x="-90.75" y="61.5" />
+    </edge>
+    <edge source="userInteraction.EStore" target="userInteraction.User">
+      <point x="0.0" y="-38.5" />
+      <point x="208.38464912280705" y="588.0" />
+      <point x="184.34868421052636" y="588.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="userInteraction.Admin" target="userInteraction.Receipt">
+      <point x="63.0" y="-27.0" />
+      <point x="157.5" y="916.0" />
+      <point x="517.7859649122807" y="916.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="userInteraction.Cart" target="userInteraction.ItemDescription">
+      <point x="58.5" y="-84.5" />
+      <point x="943.9109649122807" y="349.0" />
+      <point x="923.6609649122807" y="349.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="userInteraction.Receipt" target="userInteraction.EStore">
+      <point x="-82.08333333333337" y="-73.0" />
+      <point x="435.7026315789474" y="725.0" />
+      <point x="148.88464912280705" y="725.0" />
+      <point x="-59.5" y="38.5" />
+    </edge>
+    <edge source="userInteraction.Customer" target="userInteraction.Cart">
+      <point x="72.75000000000006" y="-38.5" />
+      <point x="582.4471491228071" y="578.0" />
+      <point x="797.6609649122809" y="578.0" />
+      <point x="-87.75" y="84.5" />
+    </edge>
+    <edge source="userInteraction.Receipt" target="userInteraction.Cart">
+      <point x="82.08333333333337" y="-73.0" />
+      <point x="599.8692982456141" y="725.0" />
+      <point x="949.4109649122807" y="725.0" />
+      <point x="949.4109649122807" y="588.0" />
+      <point x="973.1609649122807" y="588.0" />
+      <point x="87.74999999999994" y="84.5" />
+    </edge>
+    <edge source="userInteraction.Admin" target="userInteraction.User">
+      <point x="0.0" y="-27.0" />
+      <point x="94.5" y="916.0" />
+      <point x="78.88464912280705" y="916.0" />
+      <point x="78.88464912280705" y="588.0" />
+      <point x="159.01535087719301" y="588.0" />
+      <point x="-25.333333333333343" y="14.5" />
+    </edge>
+    <edge source="userInteraction.User" target="userInteraction.Address">
+      <point x="0.0" y="-14.5" />
+      <point x="184.34868421052636" y="349.0" />
+      <point x="224.69868421052638" y="349.0" />
+      <point x="-37.39999999999998" y="61.5" />
+    </edge>
+    <edge source="userInteraction.Customer" target="userInteraction.Address">
+      <point x="-72.74999999999994" y="-38.5" />
+      <point x="436.9471491228071" y="568.0" />
+      <point x="262.09868421052636" y="568.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="userInteraction.BillingInformation" target="userInteraction.CreditCardInformation">
+      <point x="45.375" y="-61.5" />
+      <point x="-75.25" y="73.0" />
+    </edge>
+    <edge source="userInteraction.CreditCardInformation" target="userInteraction.CardType">
+      <point x="-75.25" y="-73.0" />
+      <point x="563.1609649122807" y="148.0" />
+      <point x="599.6609649122807" y="148.0" />
+      <point x="-38.75" y="61.5" />
+    </edge>
+    <edge source="userInteraction.Customer" target="userInteraction.User">
+      <point x="-121.24999999999994" y="-38.5" />
+      <point x="388.4471491228071" y="578.0" />
+      <point x="209.68201754385967" y="578.0" />
+      <point x="25.333333333333314" y="14.5" />
+    </edge>
+    <edge source="userInteraction.Receipt" target="userInteraction.Customer">
+      <point x="-16.41666666666663" y="-73.0" />
+      <point x="501.3692982456141" y="705.0" />
+      <point x="436.94714912280705" y="705.0" />
+      <point x="-72.75" y="38.5" />
+    </edge>
+    <edge source="userInteraction.BillingInformation" target="userInteraction.Address">
+      <point x="-136.125" y="-61.5" />
+      <point x="381.66096491228075" y="349.0" />
+      <point x="299.4986842105264" y="349.0" />
+      <point x="37.400000000000034" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="326.0" y="403.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
